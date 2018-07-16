@@ -1,0 +1,14 @@
+
+.main {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.word {
+    word-wrap: break-word;
+}
+
+.link {
+    text-decoration: none;
+}
