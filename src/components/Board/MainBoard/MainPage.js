@@ -20,7 +20,13 @@ class Mainpage extends Component {
         return (
         <div className='main'>
             <div>
-                {this.state.active ? <Activeboard disEmpty={this.props.disEmpty} boardAdd={this.props.addBoard} clicked={this.activeBoardHandler} /> : <Board clicked={this.activeBoardHandler} />}
+                {this.state.active 
+                    ? <Activeboard 
+                        disEmpty={this.props.disEmpty} 
+                        boardAdd={this.props.addBoard} 
+                        clicked={this.activeBoardHandler} /> 
+                    : <Board 
+                        clicked={this.activeBoardHandler} />}
             </div>
             {this.props.brd.map(brd => (
                 <Receive

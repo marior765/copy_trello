@@ -8,8 +8,9 @@ import Listitem from './List/ListItem';
 import '../MainBoard/Classes.css'
 
 class NewBoard extends Component {
+
     state = {
-        active: false
+      active: false
     }
 
     listActiveHandler = () => {
